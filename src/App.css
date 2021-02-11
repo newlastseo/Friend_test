@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  padding: 16px;
+  box-sizing: boarder-box;
+}
+
+.outter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  max-width: 400px;
+  border: 1px solid grey;
+  padding: 0vh 32px;
+  box-sizing: border-box;
+}
+
+.outter h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 1.4;
+}
+.outter h1 span {
+  background-color: yellow;
+  padding: 5px 10px;
+  border-radius: ;
+}
+
+.scc_img {
+  width: 80%;
+  margin: 16px;
+}
+
+.text_box {
+  padding: 10px;
+  margin: 24px 0px;
+  border: 1px solid #dadafc;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.button {
+  padding: 8px 24px;
+  background-color: #dadafc;
+  border-radius: 30px;
+  border: #dadafc;
+}
